@@ -6,9 +6,9 @@ body {
 
 
 
-p {
+.p {
   font-size: 10px;
-  color: #999999;
+  color: #000000;
 }
 
 styledimg {
