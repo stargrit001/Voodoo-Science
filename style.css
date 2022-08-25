@@ -4,7 +4,7 @@ body {
     
     background-color: #333333; 
     color: #ffffff;
-    font-size: xx-small;
+    
 }
 
 
@@ -25,4 +25,7 @@ height: 50%;
     html { font-family: 'Inter var', sans-serif; }
     }
     
-
+p {
+  color: #999999;
+  font-size: xx-small;
+}
