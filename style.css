@@ -2,9 +2,10 @@ body {
     padding: 0;
     margin: 0;
     
+    
     background-color: #333333; 
     color: #ffffff;
-    
+    font-size: small;
 }
 
 
@@ -27,5 +28,12 @@ height: 50%;
     
 p {
   color: #999999;
-  font-size: xx-small;
+  font-size: smaller;
 }
+
+H1 {
+  color: #999999;
+  font-size: larger;
+}
+
+
