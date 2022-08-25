@@ -1,13 +1,13 @@
 body {
     background-color: #333333; 
     color: #ffffff;
-
+    font-size: xx-small;
 }
 
 
 
 .p {
-  font-size: 10px;
+  font-size: 20px;
   color: #000000;
 }
 
