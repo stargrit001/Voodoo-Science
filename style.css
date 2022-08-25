@@ -1,15 +1,15 @@
 body {
+    padding: 0;
+    margin: 0;
+    
     background-color: #666666; 
     color: #ffffff;
     font-size: xx-small;
 }
 
-font-size: xx-small;
 
-.p {
-  font-size: 28px;
-  color: #000000;
-}
+
+
 
 styledimg {
 background-image: url(/scaled_2x.png);
