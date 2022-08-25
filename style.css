@@ -4,7 +4,11 @@ body {
 
 }
 
+color: #ffffff;
 
+p {
+  font-size: 10px;
+}
 
 styledimg {
 background-image: url(/scaled_2x.png);
