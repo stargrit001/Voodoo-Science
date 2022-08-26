@@ -3,14 +3,19 @@ body {
     margin: 0;
     
     
-    background-color: #000000; 
-    color: #ffffff;
+    background-color: #ffffff; 
+    color: #000000;
     font-size: 10;
     font-weight: lighter; 
 }
 
 div.margin { margin: 100px; }
 
+
+
+div.narrow {
+	width: 100px;
+}
 
 
 div.styledimg {
