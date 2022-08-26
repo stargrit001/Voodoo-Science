@@ -13,11 +13,19 @@ body {
 
 
 
-styledimg {
-background-image: url(/AIS_09-50%.png);
+div.styledimg {
+background-image: url(AIS_09-50_.png);
 background-repeat: no-repeat;
-width: 50%;
-height: 50%;
+width: 1236px;
+height: 1200px;
+}
+
+
+div.imagebox {
+  width: 50%;
+  height: 50%;
+ 
+  border: none;
 }
 
 
@@ -29,7 +37,7 @@ height: 50%;
     
 p {
   
-  font-size: smaller;
+  font-size: 10px;
 }
 
 H1 {
