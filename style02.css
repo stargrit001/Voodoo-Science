@@ -14,7 +14,8 @@ div.margin { margin: 100px; }
 
 
 div.narrow {
-	width: 100px;
+	width: 50%;
+	text-align: left;
 }
 
 

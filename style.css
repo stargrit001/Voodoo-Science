@@ -11,7 +11,9 @@ body {
 
 div.margin { margin: 100px; }
 
-
+img:hover {
+  img: invert;
+}
 
 div.styledimg {
 background-image: url(AIS_09-50_.png);
