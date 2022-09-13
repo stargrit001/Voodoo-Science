@@ -10,9 +10,8 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "De Gorrlause - Voodoo Session 04", filePath: "song1.mp3", cover: "cover1.jpg"},
     {songName: "De Gorrlause - Voodoo Science", filePath: "song2.mp3", cover: "cover2.jpg"},
-
+    {songName: "De Gorrlause - Voodoo Session 04", filePath: "song1.mp3", cover: "cover1.jpg"},
 ]
 
 songItems.forEach((element, i)=>{
