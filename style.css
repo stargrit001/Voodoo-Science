@@ -104,17 +104,7 @@ nav ul li{
     padding: 0 12px; /*padding-top/bottom=0 padding-left/right=12*/
 }
 
-.brand img{
-    width: 38px;
-    padding: 0 8px;
-}
 
-.brand{
-    display: flex;
-    align-items: center; /*all .brand items in center*/
-    font-weight: bold;
-    font-size: 20px;
-}
 
 .container{
     display: flex;
