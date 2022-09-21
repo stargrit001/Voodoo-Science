@@ -222,12 +222,12 @@ nav ul li{
 
 @media screen and (max-width: 860px) {
     .songItem{
-        width: 65vw;
+        width: 46vw;
     }
     
     .container{
-        width: 70vw;
-        padding: 30px;
+        width: 50vw;
+        padding: 10px;
     }
 
     .bottom{
