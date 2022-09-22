@@ -68,7 +68,7 @@ function songItemPlayFn(songIndex){
     songItemPlay.classList.remove('fa-play-circle');
     songItemPlay.classList.add('fa-pause-circle');
     if((!(audioElement.paused)) || (myProgressBar.value>=100)){
-        audioElement.src = `${songIndex+1}.mp3`;
+        audioElement.src = `song${songIndex+1}.mp3`;
     }
     gif.style.opacity = 1;
     masterSongName.innerText = songs[songIndex].songName;
