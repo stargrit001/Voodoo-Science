@@ -2,7 +2,7 @@ console.log("Welcome to Spotify");
 
 //Initializing variables
 let songIndex = 0;
-let audioElement = new Audio('Songs/1.mp3');
+let audioElement = new Audio('song1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -10,8 +10,8 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "De Gorrlause", filePath: "songs.mp3", cover: "cover1.jpg"},
-    {songName: "De gorrlause", filePath: "song2.mp3", cover: "cover2.jpg"},
+    {songName: "De Gorrlause", filePath: "song1.mp3", cover: "cover1.png"},
+    {songName: "De gorrlause", filePath: "song2.mp3", cover: "cover2.png"},
    
 ]
 
@@ -68,7 +68,7 @@ function songItemPlayFn(songIndex){
     songItemPlay.classList.remove('fa-play-circle');
     songItemPlay.classList.add('fa-pause-circle');
     if((!(audioElement.paused)) || (myProgressBar.value>=100)){
-        audioElement.src = `Songs/${songIndex+1}.mp3`;
+        audioElement.src = `${songIndex+1}.mp3`;
     }
     gif.style.opacity = 1;
     masterSongName.innerText = songs[songIndex].songName;
