@@ -94,7 +94,7 @@ document.getElementById("next").addEventListener("click", ()=>{
 document.getElementById("previous").addEventListener("click", ()=>{
     makeAllPlays();
     if(songIndex<=0){
-        songIndex = 4;
+        songIndex = 2;
     }
     else{
         songIndex -= 1;
@@ -104,7 +104,7 @@ document.getElementById("previous").addEventListener("click", ()=>{
 
 function nextSong(){
     makeAllPlays();
-    if(songIndex>=4){
+    if(songIndex>=2){
         songIndex = 0;
     }
     else{
