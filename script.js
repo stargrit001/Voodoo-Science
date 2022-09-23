@@ -10,8 +10,8 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "De Gorrlause - Voodoo Science", filePath: "song1.mp3", cover: "cover1.png"},
-    {songName: "De gorrlause - The 4th take", filePath: "song2.mp3", cover: "cover2.png"},
+    {songName: "De Gorrlause - Voodoo Science", filePath: "DE_GORRLAUSE_Voodoo_Science_(Master_24_48)_192_44.mp3", cover: "cover1.png"},
+    {songName: "De gorrlause - The 4th take", filePath: "DE_GORRLAUSE_Voodoo4_192.mp3", cover: "cover2.png"},
    
 ]
 
