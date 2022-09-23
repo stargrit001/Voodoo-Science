@@ -2,7 +2,7 @@ console.log("Welcome to Spotify");
 
 //Initializing variables
 let songIndex = 0;
-let audioElement = new Audio('song1.mp3');
+let audioElement = new Audio('DE_GORRLAUSE_Voodoo_Science_(Master_24_48)_192_44.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
