@@ -2,7 +2,7 @@ console.log("Welcome to Spotify");
 
 //Initializing variables
 let songIndex = 0;
-let audioElement = new Audio('song1.mp3');
+let audioElement = new Audio('./song1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -10,8 +10,8 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "De Gorrlause - Voodoo Science", filePath: "song1.mp3", cover: "cover1.png"},
-    {songName: "De Gorrlause - The 4th take", filePath: "song2.mp3", cover: "cover2.png"},
+    {songName: "De Gorrlause | Voodoo Science", filePath: "./song1.mp3", cover: "cover1.png"},
+    {songName: "De Gorrlause | The 4th take", filePath: "./song2.mp3", cover: "cover2.png"},
    
 ]
 
